@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>AIOTICS Security Labs | Tools & Training for IoT/OT Security</title>
+  <meta name="description"
+        content="AIOTICS Security Labs (ASL) delivers AI-assisted tools and training for IoT, OT, ICS and smart infrastructure – combining SafeHome-AI, OT/ICS toolkits and structured bootcamps, FDPs and consulting for institutions.">
+
+  <!-- Favicon (tab icon) -->
+  <link rel="icon" type="image/png" href="aiotics-logo.png" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- ================= HEADER ================= -->
+  <header>
+    <div class="container">
+      <nav class="nav">
+        <a href="#home" class="brand">
+          <div class="brand-logo-wrap">
+            <img src="aiotics-logo.png" alt="AIOTICS Security Labs Logo" class="brand-logo">
+          </div>
+          <div>
+            <div class="brand-text-main">AIOTICS</div>
+            <div class="brand-text-sub">Security Labs</div>
+          </div>
+        </a>
+
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#products">Products</a>
+          <a href="#training">Training &amp; Services</a>
+          <a href="#research">Research</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <button class="btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'});">
+          Get in touch
+          <span>➜</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= MAIN ================= -->
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="chip">
+            <span class="chip-dot"></span>
+            Tools & Training for IoT · OT · ICS &amp; Smart Infrastructure
+          </div>
+
+          <h1 class="hero-title">
+            Practical <span>Products</span> and <span>Programmes</span> for Connected Infrastructure Security
+          </h1>
+
+          <p class="hero-sub">
+            AIOTICS Security Labs (ASL) delivers AI-assisted tools and realistic training for IoT, OT and ICS
+            environments – combining flagship products such as SafeHome-AI and OT/ICS toolkits with focused bootcamps,
+            FDPs and advisory support for institutions.
+          </p>
+
+          <div class="hero-actions">
+            <button class="btn-primary" onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'});">
+              Explore Products
+              <span>🛠</span>
+            </button>
+            <button class="btn-outline" onclick="document.getElementById('training').scrollIntoView({behavior:'smooth'});">
+              View Training &amp; Services
+            </button>
+          </div>
+
+          <div class="hero-tags">
+            <div class="pill">
+              <span class="pill-icon">🏠</span> SafeHome-AI – Home IoT Scanner(Prototype)
+            </div>
+            <div class="pill">
+              <span class="pill-icon">🏭</span> OT / ICS Security Toolkit
+            </div>
+            <div class="pill">
+              <span class="pill-icon">🧭</span> AI-assisted SOC &amp; Analytics (roadmap)
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="hero-card">
+            <div class="hero-illustration">
+              <div class="hero-illustration-inner">
+                <img src="aiotics-logo.png"
+                     alt="AIOTICS Security Labs Logo"
+                     style="width:180px; height:auto; object-fit:contain; border-radius:12px; margin-bottom:0.7rem;">
+                <div class="hero-split-badges">
+                  <span class="hero-badge">Flagship: SafeHome-AI</span>
+                  <span class="hero-badge">OT / ICS lab toolkits</span>
+                  <span class="hero-badge">Lightweight SOC concepts</span>
+                  <span class="hero-badge">Training built on real tools</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-kicker">Products</div>
+          <h2 class="section-title">AIOTICS Security Tool Suite</h2>
+          <p class="section-sub">
+            Compact, engineering-led tools designed to secure home networks, OT/ICS labs and institutional environments –
+            forming the product backbone and roadmap for AIOTICS Security Labs.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <div class="card">
+            <div class="chip-small">Flagship Product</div>
+            <div class="card-icon">🏠</div>
+            <div class="card-title">SafeHome-AI(Prototype)</div>
+            <div class="card-body">
+              A lightweight, AI-assisted vulnerability scanner for home and small office networks.
+              SafeHome-AI discovers connected devices, checks open ports and weak services,
+              and presents simple remediation steps – ideal for demos, awareness sessions
+              and student projects around consumer IoT security.
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="chip-small">OT / ICS Security</div>
+            <div class="card-icon">🏭</div>
+            <div class="card-title">SCADA-Guard (concept)</div>
+            <div class="card-body">
+              A focused toolkit concept for Modbus, PLC, HMI and SCADA-style networks in lab and pilot environments.
+              SCADA-Guard aims to help visualise OT attack surfaces and support teaching of industrial cybersecurity
+              using realistic yet controlled setups.
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="chip-small">Mobile Security</div>
+            <div class="card-icon">📱</div>
+            <div class="card-title">MobileGuard-AI (concept)</div>
+            <div class="card-body">
+              An Android-oriented analyser that inspects app permissions, behaviours and data access patterns.
+              MobileGuard-AI is planned as an educator-friendly tool for awareness programmes, labs and demonstrations
+              on mobile security and privacy.
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="chip-small">Lite SIEM</div>
+            <div class="card-icon">🧭</div>
+            <div class="card-title">AI-SOC Lite (concept)</div>
+            <div class="card-body">
+              A lightweight SIEM idea tailored for institutions and small organisations.
+              AI-SOC Lite focuses on log collection, basic correlation and anomaly hints, enabling
+              colleges and CoEs to introduce SOC-style thinking without heavy infrastructure.
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="chip-small">Configuration Security</div>
+            <div class="card-icon">🔒</div>
+            <div class="card-title">IoT Hardening Framework (concept)</div>
+            <div class="card-body">
+              A configuration assessment and guidance framework for IoT devices and gateways.
+              It is intended to check essential controls, flag weak defaults and generate structured
+              recommendations – useful for labs, PoCs and curriculum-linked assignments
+              on secure IoT deployment.
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="chip-small">Cyber Training Platform</div>
+            <div class="card-icon">🧪</div>
+            <div class="card-title">CyberRange-Mini (concept)</div>
+            <div class="card-body">
+              A browser-friendly mini cyber range idea for practising offensive, defensive and
+              forensic exercises without heavy VM management. CyberRange-Mini is aimed at colleges
+              seeking repeatable cyber labs that can scale to classroom use over time.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Training & Services -->
+    <section id="training" style="background:#eef2ff40;">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-kicker">Training &amp; Services</div>
+          <h2 class="section-title">Programmes and Services Built Around ASL Tools</h2>
+          <p class="section-sub">
+            A balanced portfolio of training programmes and professional services, aligned with
+            AIOTICS products and testbeds – ensuring that participants work with real tools and scenarios
+            instead of purely theoretical content.
+          </p>
+        </div>
+
+        <!-- Training programmes -->
+        <div class="section-header" style="margin-bottom:1.8rem;">
+          <div class="section-kicker" style="margin-bottom:0.35rem;">Training Programmes</div>
+          <p class="section-sub" style="margin-top:0;">
+            Short-term and modular offerings for students, faculty and professionals, anchored on SafeHome-AI,
+            OT/ICS demonstrations, honeypots and lab-style exercises.
+          </p>
+        </div>
+
+        <div class="grid-3" style="margin-bottom:2.8rem;">
+          <div class="card">
+            <div class="card-icon">🎓</div>
+            <div class="card-title">IoT / OT Security Bootcamps</div>
+            <div class="card-body">
+              Multi-day bootcamps focused on IoT/OT threats, network fundamentals, Linux for security,
+              traffic capture and live demonstrations using tools developed under ASL. Designed for
+              engineering colleges, CoEs and internal upskilling initiatives.
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">👩‍🏫</div>
+            <div class="card-title">Faculty Development Programmes (FDP)</div>
+            <div class="card-body">
+              FDP tracks that help faculty adopt IoT/OT security topics, build labs around ASL tools,
+              map content to curriculum outcomes and frame assessments, projects and evaluation rubrics
+              around realistic case studies.
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">🤖</div>
+            <div class="card-title">AI for Cybersecurity Workshops</div>
+            <div class="card-body">
+              Application-oriented workshops covering how AI/ML models can assist intrusion detection,
+              anomaly spotting and security analytics, with examples drawn from IoT/OT and log analysis scenarios.
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">🧪</div>
+            <div class="card-title">Lab &amp; Cyber Range Guidance</div>
+            <div class="card-body">
+              Guided sessions that walk institutions through designing or refining IoT/OT security labs and
+              cyber ranges, leveraging existing infrastructure, ASL product concepts and clear learning outcomes.
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">📘</div>
+            <div class="card-title">Project &amp; Curriculum Support</div>
+            <div class="card-body">
+              Support for framing minor/major projects, seminar topics and course modules around IoT/OT security,
+              SafeHome-AI, honeypots and log analysis – including suggested datasets and experiment ideas.
+            </div>
+          </div>
+        </div>
+
+        <!-- Professional services -->
+        <div class="section-header" style="margin-bottom:1.8rem;">
+          <div class="section-kicker" style="margin-bottom:0.35rem;">Professional Services</div>
+          <p class="section-sub" style="margin-top:0;">
+            Consulting-style engagements for institutes and organisations that need structured evaluations,
+            advisory support or custom tooling in IoT, OT and lab-centred security.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <div class="card">
+            <div class="card-icon">🔧</div>
+            <div class="card-title">IoT Device Pentesting</div>
+            <div class="card-body">
+              Assessment of consumer and small-scale industrial IoT devices, focusing on network exposure,
+              authentication, configuration and basic firmware-related risks where applicable. Engagements
+              are scoped to educational and pilot settings.
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">🏭</div>
+            <div class="card-title">OT / ICS Vulnerability Assessment</div>
+            <div class="card-body">
+              Structured evaluation of SCADA-like setups, including protocol mapping, segmentation review
+              and high-level threat modelling for Modbus/PLC/HMI environments within labs or limited deployments.
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">🛠</div>
+            <div class="card-title">Lab &amp; Infrastructure Audit</div>
+            <div class="card-body">
+              Review of existing cybersecurity labs, CoEs and teaching infrastructure with recommendations on
+              topology, tooling, experiment design and workflows aligned with IoT/OT security goals.
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">📊</div>
+            <div class="card-title">SOC &amp; SIEM Setup Consulting</div>
+            <div class="card-body">
+              Advisory support for introducing basic SOC and SIEM concepts using lightweight or open-source tools,
+              including log pipeline design, starter dashboards and ideas for student-driven SOC-style exercises.
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">🧩</div>
+            <div class="card-title">Custom Tool &amp; PoC Development</div>
+            <div class="card-body">
+              Co-created proofs of concept for AI-assisted detection, IoT monitoring or lab automation that
+              align with institutional research objectives or curriculum needs, using modular and reusable designs.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research -->
+    <section id="research">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-kicker">Research &amp; Articles</div>
+          <h2 class="section-title">Applied Security Research Behind ASL</h2>
+          <p class="section-sub">
+            AIOTICS Security Labs is grounded in ongoing experimentation with SCADA–IoT testbeds,
+            log analysis and AI-driven detection ideas. Selected themes are being developed as articles,
+            technical notes and case studies.
+          </p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <div class="chip-small">Smart Home Security</div>
+            <div class="card-title">Hidden Risks of Smart Homes</div>
+            <div class="card-body">
+              A technical yet accessible overview of how poorly configured routers, cameras and consumer
+              IoT devices expose home users – forming the conceptual foundation for SafeHome-AI and related
+              awareness material.
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="chip-small">OT / ICS Education</div>
+            <div class="card-title">Practical OT/ICS Security for Institutions</div>
+            <div class="card-body">
+              Guidance on using academic SCADA labs and virtual topologies to teach industrial security,
+              covering Modbus code injection, replay attacks and defensive monitoring ideas for OT toolkits.
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="chip-small">AI &amp; Detection</div>
+            <div class="card-title">Lightweight AI-Driven IDS for IoT</div>
+            <div class="card-body">
+              Exploration of feature sets, models and deployment strategies suitable for constrained IoT
+              environments and edge gateways, shaping the roadmap for future ASL detection capabilities.
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="chip-small">Case Studies</div>
+            <div class="card-title">Smart City Testbed Experiments</div>
+            <div class="card-body">
+              Documented experiments on Modbus code injection, replay traffic and anomalous behaviour in
+              smart-city inspired SCADA testbeds, used as teaching and research examples in ASL-aligned programmes.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-kicker">Who we are</div>
+          <h2 class="section-title">About AIOTICS Security Labs</h2>
+        </div>
+
+        <div class="about-grid">
+          <div>
+            <p class="about-text">
+              AIOTICS Security Labs (ASL) is a deep-tech cybersecurity initiative focused on the intersection of tools,
+              labs and training for IoT, OT, ICS and smart infrastructure. The objective is to make industrial and
+              embedded security more accessible through compact scanners, OT toolkits, cyber range concepts and
+              carefully structured educational experiences.
+            </p>
+
+            <div class="about-highlight">
+              <div class="about-highlight-icon">🎯</div>
+              <div>
+                <div class="about-highlight-title">Mission</div>
+                <div class="about-highlight-body">
+                  To enable institutions and organisations to build realistic IoT/OT security capability using
+                  lightweight tools, guided lab designs and focused programmes that reflect real-world constraints,
+                  rather than purely theoretical content.
+                </div>
+              </div>
+            </div>
+
+            <div class="about-highlight">
+              <div class="about-highlight-icon">👁</div>
+              <div>
+                <div class="about-highlight-title">Vision</div>
+                <div class="about-highlight-body">
+                  To evolve into a trusted provider of AI-supported tools and cyber ranges for industrial
+                  and smart-infrastructure security, while continuing to support teaching, research and skill
+                  development in this space across academia and industry.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="founder-card">
+            <div class="founder-avatar-wrap">
+              <img src="vidya.png" alt="Dr. Vidya Rao" class="founder-avatar">
+            </div>
+            <div>
+              <div class="founder-name">Dr. Vidya Rao</div>
+              <div class="founder-role">Founder, AIOTICS Security Labs</div>
+              <div class="founder-summary">
+                IoT device-security researcher, OT/SCADA practitioner and cybersecurity educator with experience in
+                designing SCADA-based smart-city labs, building ML-driven intrusion detection models and mentoring
+                students and professionals in both offensive and defensive security practices.
+              </div>
+              <div class="founder-tags">
+                <span class="tag">IoT / OT Security</span>
+                <span class="tag">SCADA Labs</span>
+                <span class="tag">Cyber Ranges</span>
+                <span class="tag">Digital Forensics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" style="background:#eef2ff40;">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-kicker">Get in touch</div>
+          <h2 class="section-title">Contact AIOTICS Security Labs</h2>
+          <p class="section-sub">
+            To discuss SafeHome-AI, OT/ICS tools or any training and consulting
+            offerings, share a brief description of your requirement and a suitable time window for a reply.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info-card">
+            <div class="contact-item">
+              <div class="contact-icon">✉</div>
+              <div>
+                <div class="contact-label">Email</div>
+                <div class="contact-value">
+                  <!-- Update this to a domain address later (e.g., contact@aioticslabs.com) -->
+                  <a href="mailto:aioticslab@gmail.com">aioticslab@gmail.com</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <div class="contact-label">Location</div>
+                <div class="contact-value">
+                  Udupi – Manipal, Karnataka, India
+                </div>
+              </div>
+            </div>
+
+            <p style="font-size:0.86rem; color:var(--text-muted); margin-top:1rem;">
+              When writing, please include your institution or organisation name, approximate audience size,
+              preferred dates and whether your interest is product-focused, training-focused or both.
+            </p>
+          </div>
+
+          <form class="contact-form">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input id="name" type="text" placeholder="Your name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="your@email.com" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="org">Institution / Organisation</label>
+              <input id="org" type="text" placeholder="Your institution or company" />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Tell us whether you are interested in products, training, consulting – or a combination..."></textarea>
+            </div>
+
+            <button type="button" class="btn-primary" style="margin-top:0.3rem; width:100%; justify-content:center;">
+              Send Message
+            </button>
+            <p style="font-size:0.78rem; color:var(--text-muted); margin-top:0.35rem;">
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+<footer>
+  <div class="container footer-inner">
+    <div>© 2025 AIOTICS Security Labs. Tools &amp; Training for IoT/OT &amp; Smart Infrastructure Security.</div>
+    <div>Local static prototype of the AIOTICS Security Labs website.</div>
+  </div>
+  <div class="container" style="text-align:center;">
+    <div style="font-size:0.75rem; color:#9ca3af; margin-top:0.4rem;">
+      Product descriptions represent research prototypes and concepts under active development.
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
